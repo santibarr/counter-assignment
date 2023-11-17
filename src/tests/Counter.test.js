@@ -2,6 +2,7 @@
 import React from 'react';
 // import the Counter component here
 import Counter from '../components/Counter';
+//import the render, firevent, and screen
 import {render, fireEvent, screen} from '@testing-library/react'
 
 beforeEach(() => {
